@@ -1,0 +1,21 @@
+#wrap{
+	width: 970px:;
+	border: 1px dotted red;
+}
+#header{
+	width:960px;
+	min-height: 80px;
+}
+	#logo{
+		width: 960px;
+		height: 40px;
+	}
+	#headnav{
+		width: 960px;
+		height: 40px;
+	}
+
+#body{
+	padding: 5px;
+	margin: 5px;
+}
