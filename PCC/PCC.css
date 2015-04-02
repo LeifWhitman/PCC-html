@@ -1,0 +1,100 @@
+div{
+	border: 1px dotted red;
+}
+#wrap{
+	width: 970px;
+	margin: 0 auto;
+}
+#header{
+	width:960px;
+}
+		#header p{
+				display: inline-block;
+				text-align: right;
+				vertical-align: top;
+				margin: 27px 10px 10px 260px;
+				font-size: 1.3em;
+			}
+	#logo{
+		width: 970px;
+		height: 68px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	#headnav{
+		width: 960px;
+		display: inline-block;
+		background color: grey;
+	}
+		#headnav ul{
+			background color: grey;
+			list-style-type: none;
+			margin: 0;
+			padding: 0 10px;
+		}
+		#headnav li{
+			color: darkgrey;
+			display: inline;
+			padding: 0px 20px;
+			text-align: center;
+		}
+
+#body{
+	padding: 5px;
+	margin: 5px;
+}
+	#General{
+		width: 960px;
+		display: inline-block;
+	}
+		#genbody{
+			display: inline-block;
+			vertical-align: top;
+			height: 377px;
+		}
+		#mainblock{
+			width: 500px;
+			height: 377px;
+			display: inline-block;
+		}
+			.title{
+				background-color: yellow;
+				color: black;
+				padding: 0;
+				margin: 0;
+			}
+			#mblocktext{
+				color: white;
+				background-color: black;
+			}
+	#squirt{
+		width: 960px;
+		display: inline-block;
+	}
+		#squirt p{
+			display: inline-block;
+		}
+	#blocks{
+		width: 960px;
+		height: 120px;
+		display: inline-block;
+	}
+		#block1{
+			width: 222px;
+			display: inline-block;
+		}
+		#block2{
+			width: 221px;
+			height: 105px;
+			display: inline-block;
+		}
+		#block3{
+			width: 221px;
+			height: 105px;
+			display: inline-block;
+		}
+		#block4{
+			width: 221px;
+			height: 105px;
+			display: inline-block;
+		}
