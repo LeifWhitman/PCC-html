@@ -1,5 +1,5 @@
-div{
-	border: 1px dotted red;
+*{
+	font-family: "Helvetica";
 }
 #wrap{
 	width: 970px;
@@ -18,83 +18,121 @@ div{
 	#logo{
 		width: 970px;
 		height: 68px;
-		padding-left: 10px;
-		padding-right: 10px;
+		background-color: #E9E9E9;
+
 	}
 	#headnav{
-		width: 960px;
+		width: 970px;
 		display: inline-block;
-		background color: grey;
 	}
 		#headnav ul{
-			background color: grey;
+			background-color: #D9DFE4;
 			list-style-type: none;
 			margin: 0;
 			padding: 0 10px;
 		}
 		#headnav li{
-			color: darkgrey;
+			color: #68605B;
+			background-color: #D9DFE4;
 			display: inline;
 			padding: 0px 20px;
 			text-align: center;
 		}
 
 #body{
+	width: 955px;
 	padding: 5px;
 	margin: 5px;
+	background: black;
 }
 	#General{
-		width: 960px;
+		width: 970px;
 		display: inline-block;
 	}
 		#genbody{
 			display: inline-block;
 			vertical-align: top;
-			height: 377px;
-		}
+			padding-left: 5px;
+		}	
 		#mainblock{
-			width: 500px;
-			height: 377px;
 			display: inline-block;
+			vertical-align: top;
+			padding-bottom: 0;
+			margin-bottom: 0;
 		}
 			.title{
-				background-color: yellow;
+				vertical-align: top;
+				background-color: #FCC504;
 				color: black;
-				padding: 0;
+				padding: 5px;
 				margin: 0;
 			}
 			#mblocktext{
+				vertical-align: top;
 				color: white;
-				background-color: black;
+				background-color: #4D4D4D;
+				font-size: 13px;
+				width: 550px;
+				padding: 5px;
 			}
+				#genbody img{
+					border: 2px solid white;
+				}
 	#squirt{
 		width: 960px;
+		height: 11px;
 		display: inline-block;
+		padding: 0px;
+		margin: 0px;
+		color: #FCC504;
 	}
 		#squirt p{
 			display: inline-block;
+			margin: 0;
+			font-size: 12px;
+			padding: 0;
+		}
+		#squirt img{
+			height: 10px;
 		}
 	#blocks{
 		width: 960px;
-		height: 120px;
 		display: inline-block;
-	}
+		background-color: black; 
+				}
+				#blocks p{
+				padding: 0;
+				margin: 0;
+			}
 		#block1{
 			width: 222px;
 			display: inline-block;
+			vertical-align: top;
+			background-color: white;
+			margin: 5px;
 		}
 		#block2{
 			width: 221px;
-			height: 105px;
 			display: inline-block;
+			vertical-align: top;
+			background-color: white;
+			margin: 5px;
 		}
 		#block3{
 			width: 221px;
-			height: 105px;
 			display: inline-block;
+			vertical-align: top;
+			background-color: white;
+			margin: 5px;
 		}
 		#block4{
 			width: 221px;
-			height: 105px;
-			display: inline-block;
+			display: inline-block;	
+			vertical-align: top;
+			background-color: white;
+			margin: 5px;
+		}
+			img.readmore{
+			width: 80px;	
+			margin-left: 135px;
 		}
